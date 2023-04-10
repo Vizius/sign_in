@@ -31,6 +31,13 @@ class SideMenu extends StatelessWidget {
             },
           ),
           ListTile(
+            leading: Icon(Icons.map_sharp),
+            title: Text('Mapa'),
+            onTap: () {
+              Navigator.pushNamed(context, 'full');
+            },
+          ),
+          ListTile(
             leading: Icon(Icons.settings),
             title: Text('Configuracion'),
             onTap: () {

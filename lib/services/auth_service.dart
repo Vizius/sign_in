@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 class AuthService extends ChangeNotifier
 {
   final String _baseUrl = 'identitytoolkit.googleapis.com';
-  final String _fireBaseToken = 'AIzaSyBtXxjbdrLabFBIp-kqzvCuBm3cAf27jKY';
+  final String _fireBaseToken = 'apikey';
 
   final storage = new FlutterSecureStorage();
 
